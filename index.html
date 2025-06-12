@@ -34,14 +34,14 @@
 </head>
 
 <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-EZYSWBRY62"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GCJJ9YLL6D"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-EZYSWBRY62');
-</script> -->
+  gtag('config', 'G-GCJJ9YLL6D');
+</script>
 
 
 <body>
@@ -131,7 +131,7 @@
             <div style="text-align: center;">
               <img src="static/images/teaser.jpg" alt="Teaser Img" />
             <h2 class="subtitle has-text-centered">
-              <b>Dexterous Focus</b>
+              <b>Dexterous Focus</b> Egocentric videos often contain significant dynamic motion, head tilting, and distracting elements in e.g. dexterous tasks. By restricting the ego video to only tracking the area around the camera-wearer's hands, we allow the model to mainly focus on relevant features for activity understanding, and we show improved performance on human activity understanding without needing to augment existing video network architectures.
             </h2>
             </div>
         </div>
@@ -145,7 +145,7 @@
               <img src="static/images/algorithm.jpg" alt="Teaser Img" />
               </figure>
             <h2 class="subtitle has-text-centered">
-              <b>Algorithm.</b>
+              <b>Algorithm.</b> First, we use a hand detector, <i>D</i>, focus point selection, <i>F</i>, and a stabilizer, <i>S</i>, to obtain a sample trajectory across the video which focuses on the ego-viewer's hands. Then we <i>crop</i> the video frames based on the trajectory to obtain the final hand-focused video.
             </h2>
             </div>
         </div>
@@ -256,7 +256,7 @@
                   <tfoot>
                   <tr>
                     <th class="normal-th">All (D, F, S)</th>
-                    <th class="normal-th">45.81</th>
+                    <th class="normal-th">45.81%</th>
                     <th class="normal-th">47.75%</th>
                   </tr>
                 </tfoot>
@@ -265,7 +265,7 @@
 
           <div class="content has-text-justified">
             <p>
-              <b>Keystep Recognition Benchmark.</b> The Top-1 Accuracy of keystep recognition on hold-out validation dataset. Star (*) denotes our TimeSFormer re-implementation, with all other results reported directly from Ego-Exo4D. Rows are ranked by performance.
+              <b>Ablation Study.</b> Top-1 Accuracy of keystep recognition is reported with various components of the framework turned off or altered. Our ablation results indicate that each component of our method adds to the overall performance of dexterous focus.
             </p>
           </div>
 
